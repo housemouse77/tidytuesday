@@ -1,4 +1,4 @@
-# National PArks Tidytuesday Challenge
+# National Parks TidyTuesday Challenge
 This is my contribution to the #tidytuesday challenge of data visualizations in R. https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-17
 
 The data on US National Park visit was provided by https://data.world/inform8n/us-national-parks-visitation-1904-2016-with-boundaries, and the goal was to come up with a new way to visualize it. 
