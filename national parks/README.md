@@ -7,5 +7,5 @@ Given that we had a time series data by years of visitors in various parks, I ch
 
 The repository contains the original dataset, R code for visualization and the resulting chart.
 
-![alt text](https://raw.githubusercontent.com/housemouse77/tidytuesday/national_parks/Rplot.png)
-national parks/Rplot.png
+![bla](https://raw.githubusercontent.com/housemouse77/tidytuesday/national%20parks/Rplot.png)
+
