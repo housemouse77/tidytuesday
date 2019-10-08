@@ -6,4 +6,6 @@ Schools became more diverse, yet "white majority" schools are still there, mostl
 
 The data is from https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-24
 
+![plot](https://raw.githubusercontent.com/housemouse77/tidytuesday/master/schooldiversity/schooldiversitytidytuesday.png)
+
 
