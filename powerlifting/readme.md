@@ -10,6 +10,6 @@ I  display violin plots of the distributions by age groups for the two subsets (
 
 The repository contains the R code for visualization and the resulting chart.
 
-![plot](https://raw.githubusercontent.com/housemouse77/tidytuesday/master/powerlifting/powerlifting.pdf)
+![plot](https://raw.githubusercontent.com/housemouse77/tidytuesday/master/powerlifting/Rplot.png)
 
 
