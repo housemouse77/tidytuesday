@@ -7,3 +7,9 @@ I focused my analysis on how much relative weight do the champions lift e.g. the
 I split the dataset into Champions (those in places 1-3) and Non-champions (everyone else) as well as males / females.
 
 I  display violin plots of the distributions by age groups for the two subsets (champions and non-champions).
+
+The repository contains the R code for visualization and the resulting chart.
+
+![plot](https://raw.githubusercontent.com/housemouse77/tidytuesday/master/powerlifting/powerlifting.pdf)
+
+
