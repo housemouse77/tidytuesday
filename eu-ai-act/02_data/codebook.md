@@ -16,6 +16,8 @@ One row per provision unit.
 | `unit_type` | str | `recital`, `article`, `annex` |
 | `unit_no` | str | e.g. `5`, `III` |
 | `unit_id` | str | EUR-Lex element id (e.g. `art_5`, `rct_12`, `anx_III`), or a generated id if the regex fallback was used |
+| `chapter_no` | int | Chapter number 1–13 (articles only) |
+| `chapter` | str | Chapter in Roman numerals (articles only) |
 | `heading` | str | Article title (articles only) |
 | `text` | strL | Full text of the unit |
 | `n_words` | int | Word count |

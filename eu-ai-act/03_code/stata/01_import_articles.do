@@ -13,7 +13,7 @@ foreach l in en it {
     }
     import delimited "$proc/aiact_units_`l'.csv", varnames(1) ///
         encoding("utf-8") stringcols(_all) bindquote(strict) clear
-    destring n_words, replace
+    destring n_words chapter_no, replace
     gen int art_no = real(unit_no) if unit_type == "article"
 
     label var lang      "Language version"
@@ -22,6 +22,8 @@ foreach l in en it {
     label var heading   "Article title"
     label var text      "Full text"
     label var n_words   "Word count"
+    label var chapter_no "Chapter (articles only)"
+    label var chapter   "Chapter, Roman numeral"
     label var art_no    "Article number (numeric)"
     compress
     save "$proc/aiact_units_`l'.dta", replace

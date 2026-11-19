@@ -4,7 +4,8 @@
 *before* reading secondary sources, then compare your note with the commentary. Article numbers refer to Reg. (EU) 2024/1689
 as published in the OJ. Re-check any article the Digital Omnibus touches (see `timeline.md`).
 
-Pace is set by you. Each module is roughly one focused week at about 5–6 h. Modules 0–3 are the core, and the rest can be reordered.
+**Pace: 3 h/week**, as three 1-hour sessions (A: primary text, B: paper, C: R exercise + one-page note). Each module has a mini-lecture in `00_plan/lectures/`.
+Schedule: M0 = week 1 · M1 = weeks 2–3 · M2 = week 4 · M3 = weeks 5–8 · the rest ≈ 1–2 weeks each (about 6 months in total). Modules 0–3 are the core; the rest can be reordered.
 
 ---
 

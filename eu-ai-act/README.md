@@ -8,7 +8,7 @@ Italian implementation is covered too.
 
 | Folder | What goes in it |
 |---|---|
-| `00_plan/` | `learning_plan.md` (modules and self-tests), `timeline.md` (application dates and the moving parts) |
+| `00_plan/` | `learning_plan.md` (modules, pace), `lectures/` (one mini-lecture per module, **start with `M0_lecture.md`**), `timeline.md` (application dates) |
 | `01_sources/` | `source_log.csv` is the registry of every source. Put downloaded PDFs in `primary/` (law, guidelines) and `secondary/` (commentary). **Paywalled papers go in `private_not_in_git/`**, which git ignores. |
 | `02_data/` | `raw/` holds files exactly as downloaded and is never edited. `processed/` holds cleaned or derived files, produced only by code. `codebook.md` describes each dataset. |
 | `03_code/R/` | `01_download_aiact.R` downloads the Act (EN + IT) from EUR-Lex and splits it into articles, recitals and annexes |

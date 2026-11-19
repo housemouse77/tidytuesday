@@ -94,6 +94,13 @@ parse_fallback <- function(doc, lang) {
     distinct(unit_no, .keep_all = TRUE)   # keep the first hit per article number
 }
 
+# Article -> chapter (OJ structure: I 1-4, II 5, III 6-49, IV 50, V 51-56, VI 57-63,
+# VII 64-70, VIII 71, IX 72-94, X 95-96, XI 97-98, XII 99-101, XIII 102-113)
+chapter_of <- function(art_no) {
+  as.integer(cut(art_no, breaks = c(0, 4, 5, 49, 50, 56, 63, 70, 71, 94, 96, 98, 101, 113),
+                 labels = FALSE))
+}
+
 parse_act <- function(path, lang) {
   doc   <- read_html(path, encoding = "UTF-8")
   units <- parse_structured(doc, lang)
@@ -102,8 +109,11 @@ parse_act <- function(path, lang) {
     units <- parse_fallback(doc, lang)
   }
   units |>
-    mutate(n_words = str_count(text, "\\S+")) |>
-    select(lang, unit_type, unit_no, unit_id, heading, text, n_words)
+    mutate(n_words    = str_count(text, "\\S+"),
+           chapter_no = if_else(unit_type == "article",
+                                chapter_of(suppressWarnings(as.integer(unit_no))), NA_integer_),
+           chapter    = as.character(as.roman(chapter_no))) |>
+    select(lang, unit_type, unit_no, unit_id, chapter_no, chapter, heading, text, n_words)
 }
 
 # ---- 3. Run ------------------------------------------------------------------

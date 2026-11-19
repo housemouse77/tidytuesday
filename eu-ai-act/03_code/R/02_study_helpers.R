@@ -17,7 +17,7 @@ suppressPackageStartupMessages({ library(dplyr); library(stringr); library(readr
 .load_units <- function(lang) {
   f <- file.path("02_data", "processed", sprintf("aiact_units_%s.csv", tolower(lang)))
   if (!file.exists(f)) stop("Missing ", f, ". Run 01_download_aiact.R first.")
-  read_csv(f, col_types = cols(.default = "c", n_words = "i"))
+  read_csv(f, col_types = cols(.default = "c", n_words = "i", chapter_no = "i"))
 }
 AI <- list(EN = .load_units("EN"),
            IT = if (file.exists(file.path("02_data", "processed", "aiact_units_it.csv")))

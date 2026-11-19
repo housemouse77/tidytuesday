@@ -9,3 +9,4 @@ Add a question as soon as it occurs to you. Close it with a source ID, or mark i
 | Q03 | 2026-11-19 | Annex III 5(b), Art. 6(3) | Do SME credit-scoring models fall outside 5(b) because they score legal persons rather than natural persons? What about sole traders? | open | |
 | Q04 | 2026-11-19 | Art. 74(6), L. 132/2025 | In Italy, who is the market-surveillance authority for a bank's credit model: Banca d'Italia, ACN, or both? How do they coordinate? | open | |
 | Q05 | 2026-11-19 | Art. 113 / Omnibus | What is the current (final) application date for Annex III obligations? | open | |
+| Q06 | 2026-11-19 | Art. 3(1), Annex III 5(b) | Are logistic-regression credit scorecards "AI systems"? If not, does the Act push banks toward simpler models (regulatory arbitrage)? | open | [S004] §2.5, [S017] |
