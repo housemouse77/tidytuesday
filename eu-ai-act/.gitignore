@@ -1,0 +1,10 @@
+# Paywalled / licensed material: never commit
+01_sources/private_not_in_git/*
+!01_sources/private_not_in_git/README.md
+
+# R / Stata session files
+.Rproj.user/
+.Rhistory
+.RData
+*.log
+*.smcl
